@@ -477,7 +477,12 @@ button {
 }
 
 .icon-md {
+  color: #3d261b !important;
   font-size: 30px !important;
+}
+
+.icon-md:hover {
+  color: #cfcfcf !important;
 }
 
 .icon-lg {
@@ -709,6 +714,8 @@ p {
 h2 {
   font-size: 22px;
   line-height: 1.4em;
+  width: 60%;
+  margin: auto;
 }
 
 h3 {
@@ -738,7 +745,22 @@ h4 {
 }
 
 .white {
-  color: #ffffff !important;
+  color: #3d261b !important;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.white-fc {
+  color: white !important;
+}
+
+p,
+figcaption {
+  font-size: 15px;
+}
+
+.title {
+  font-size: 22px;
 }
 
 .portfolio-thumb {
@@ -755,7 +777,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(61, 38, 42, 0.7);
   padding: 40px 40px 40px 40px;
 }
 
@@ -780,22 +802,27 @@ h4 {
   color: #f3976c !important;
 }
 
+.bg-banniere h2 {
+  color: white !important;
+}
+
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #3d261b !important;
 }
 
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
-  color: #ffffff !important;
+  color: #180f0b !important;
 }
 
 .ltc-white {
-  color: #ffffff !important;
+  color: white !important;
+  font-size: 18px;
 }
 
 .ltc-white:hover {
-  color: #cccccc !important;
+  color: #f3976c !important;
 }
 
 .ltc-atomic-tangerine {
@@ -919,6 +946,7 @@ h4 {
     margin-left: 0;
     margin-right: 0;
   }
+
   .site-navigation {
     position: inherit;
     transform: none;
