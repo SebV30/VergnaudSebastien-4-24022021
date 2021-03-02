@@ -763,6 +763,24 @@ figcaption {
   font-size: 22px;
 }
 
+.form-local {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adress {
+  margin-top: 25px;
+}
+
+.adress a {
+  text-decoration: underline;
+}
+
+.coord {
+  font-weight: 600;
+}
+
 .portfolio-thumb {
   margin-bottom: 24px;
 }
