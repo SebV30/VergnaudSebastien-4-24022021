@@ -781,6 +781,17 @@ figcaption {
   font-weight: 600;
 }
 
+.present-contact {
+  width: 65%;
+  background-color: rgba(61, 38, 42, 0.7);
+  padding-bottom: 25px;
+  margin: auto;
+}
+
+.present-contact p {
+  font-size: 18px;
+}
+
 .portfolio-thumb {
   margin-bottom: 24px;
 }
